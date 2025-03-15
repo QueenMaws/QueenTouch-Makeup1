@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+nav{
+    margin-top: 0%;
+    background: rgba(225, 225, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding : 1rem;
+    position :absolute;
+    width: 90%;
+    left: 50%;
+    top: 1rem;
+    transform: translateX(-50%);
+    border-radius: 30px;
+    border: 1px solid rgba(225, 255, 255, 0.5);
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 6rem;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color:  #ED9E59;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease;
+    font-family: PlayFair Display, sans-serif;
+}
+
+a::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: all 0.3s ease;
+}
+
+a:hover::after{
+    width: 100%;
+    left: 0;
+}
+
+a:hover{
+    color: white;
+}
+
+h1{
+    color:#A24054;
+    margin-top: 0%;
+    position: absolute;
+    font-size: 3rem;
+    font-variant: small-caps;
+    font-family: PlayFair Display, sans-serif;
+    }
+
+body{
+    background-color: #F5E1D2;
+    justify-content: center;
+}
+
+.bighead{
+    margin-top: 160px;
+    text-align: center;
+    padding-left: 550px;
+    font-size:2em;
+    font-family: PlayFair Display,sans-serif ;
+    color: #A34054;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.head{
+    font-size: 1em;
+    font-family: PlayFair Display, sans-serif;
+    color:#ED9E59;
+    justify-content: center;
+
+}
+
+.pdebut{
+    font-size: 20px;
+}
+
+.phistoire{
+    font-size: 20px;
+}
+
+.pvaleur{
+    font-size: 20px;
+}
+
+.pequipe{
+    font-size: 20px;
+}
+
+.pagence{
+    font-size: 20px;
+}
+
+.pcontact{
+    font-size: 20px;
+}
+
+span{
+    color: #d63384;
+    font-size: 23px;
+    font-family: PlayFair Display, sans-serif;
+}
+
+.Nom{
+    font-size: 23px;
+    font-family: PlayFair Display,sans-serif;
+    color:#A34054;
+}

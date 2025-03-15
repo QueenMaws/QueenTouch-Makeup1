@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-image:url(file.jpg) 
+}
+
+.container{
+    max-width: 700px;
+    width: 100%;
+    background: rgba(225, 225, 255, 0.15);
+    padding: 25px 30px;
+    border-radius: 20px;
+    border : 2px solid rgba(225, 255, 255, 0.5);
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(15px);
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 500;
+    color :#A34054;
+    text-align: center;
+    font-family: PlayFair Display, sans-serif;
+}
+
+.container .tiltle::before{
+    content: '';
+    position: center;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 30px;
+    background: #ED9E59;
+}
+
+
+.container .userinformation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.container .userinformation .inputbox{
+    width: calc(100%/2 - 50px);
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.container .userinformation .inputbox input{
+    height: 45px;
+    width : 100%;
+    font-size: medium;
+    outline: none;
+    background-color:aliceblue;
+    border-radius: 6px;
+    border: 1px solid #ED9E59;
+    padding-left: 15px;
+    border-bottom-width: 2px;
+
+}
+
+.container .userinformation .inputbox .details{
+    font-family: PlayFair Display, sans-serif;
+    display: block;
+    margin-bottom: 5px;
+    font-size: large;
+    font-weight: 500;
+    color:#E9BCB9;
+
+}
+
+.nothing{
+    font-family: PlayFair Display, sans-serif;
+    display: block;
+    margin-bottom: 7px;
+    font-size: large;
+    font-weight: 500;
+    color:#E9BCB9;
+    padding-left: 9px;
+}
+
+.container .userinformation .inputbox input:focus,
+.container .userinformation .inputbox input:valid{
+    border-color: #ED9E59;
+}
+
+button{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    margin: 45px 0;
+    font-size: 20px;
+    font-family: PlayFair Display, sans-serif;
+    border-radius: 6px;
+    border: 1px solid #ED9E59;
+    background-color: #ED9E59;
+    box-shadow : 0 6px 6px rgba(0, 0, 0, 0.5);
+
+    
+}
+
+.ine{
+    height: 46px;
+    width: 106%;
+    outline: none;
+    padding-left: 15px;
+    font-size: medium;
+    background-color: aliceblue;
+    border-radius: 6px;
+    border: 1px solid #ED9E59;
+    border-bottom-width: 2px;
+}
+
+.note{
+    height: 70px;
+    width: 227%;
+    outline: none;
+    resize: none;
+    border: 1px solid #ED9E59;
+    border-radius: 6px;
+}
+
+.fichier{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    padding-left: 15px;
+    font-size: medium;
+    background-color: aliceblue;
+    border-radius: 6px;
+    border: 1px solid #ED9E59;
+    border-bottom-width: 2px;
+}

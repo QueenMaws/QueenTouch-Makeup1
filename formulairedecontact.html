@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulaire de contact</title>
+        <link rel="stylesheet" href="styleformulaire.css">
+    </head>
+    <body>
+        <form name="Formulaire de contact">
+            <div class="container">
+                <div class="title"><h1>Formulaire</h1></div> 
+                    <div class="userinformation">
+                        <div class="inputbox">
+                            <label class="details">Nom et prenoms :<input type="text" name="nom" placeholder="Entrez votre nom complet..." required></label>
+                        </div>
+                        <div class="inputbox">
+                            <label class="details">E-mail :<input type="email" name="email" placeholder="Votre email..." required></label>
+                        </div>
+                        <div class="inputbox">
+                            <label class="details">Téléphone :<input type="number" name="telephone" placeholder="Numero de teléphone" required></label>
+                        </div>
+                        <div class="inputbox">
+                            <label class="details">Type de service :
+                                <select class="ine" name="service" required>
+                                    <option value="mariage">Mariage</option>
+                                    <option value="soiree">Soirée</option>
+                                    <option value="artistique">Artistique</option>
+                                    <option value="shooting">Shooting</option>
+                                    <option value="anniversaire">Anniversaire</option>
+                                    <option value="formation">Formation</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="inputbox">
+                            <label class="details">Date souhaitée :<input type="date" name="date" min="2025-03-01" max="2025-12-31" required></label>
+                        </div>
+                        <div class="inputbox">
+                            <label class="details" >Lieu :
+                                <select class="ine" name="lieu" required>
+                                    <option value="studio">Studio</option>
+                                    <option value="domicile">Domicile</option>
+                                    <option value="autre">Autre</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="inputbox">
+                            <label class="details">Message :<textarea class="note" name="message" rows="10" placeholder="Avez vous des allergies ou préférences?"></textarea></label>
+                        </div>
+                            <label class="nothing" >Joindre une image (optionnel) : <input type="file" name="image" accept="image/*"></label>
+                        <label class="nothing" >J'accepte la politique de confidentialité<input type="checkbox" name="conditions" required></label>
+                    </div>
+                    <button type="submit" class="submit">Envoyer</button>
+                </form>
+            </div>
+        </div>
+        <!--- #1B1931, #44174E, #662249, #A24054, #ED9E59, #E9BCB9
+#E9BCB9, #ED9E59, #A24054, #662249, #44174E, #1B1931
+repeating-radial-gradient(circle,#E9BCB9, #ED9E59, #A24054, #662249, #44174E, #1B1931);-->
+    </body>
+    
+</html>

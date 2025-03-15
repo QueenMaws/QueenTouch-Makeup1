@@ -1,0 +1,702 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+nav{
+    margin-top: 0%;
+    background: rgba(225, 225, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding : 1rem;
+    position :absolute;
+    width: 90%;
+    left: 50%;
+    top: 1rem;
+    transform: translateX(-50%);
+    border-radius: 30px;
+    border: 1px solid rgba(225, 255, 255, 0.5);
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 6rem;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color:  #ffd700;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease;
+    font-family: PlayFair Display, sans-serif;
+}
+
+a::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: all 0.3s ease;
+}
+
+a:hover::after{
+    width: 100%;
+    left: 0;
+}
+
+a:hover{
+    color: white;
+}
+
+h1{
+    color:#A24054;
+    margin-top: 0%;
+    position: absolute;
+    font-size: 3rem;
+    font-variant: small-caps;
+    font-family: PlayFair Display, sans-serif;
+    }
+
+.services{
+    display : flex;
+    justify-content: center;
+
+}
+
+.Nosservices h2{
+    margin-top: 175px;
+    text-align:center;
+    color:#ffd700;
+    font-family: PlayFair Display,sans-serif;
+    font-size: 2rem;
+
+}
+.servicemariage {
+    border: 1px solid #ED9E59;
+    border-radius: 10px;
+    background-image:url(makeup2.jpg);
+    background-size: cover;  /* Ajuste l’image pour couvrir l'élément */
+    background-position: center; /* Centre l’image */
+    background-repeat: no-repeat; /* Empêche la répétition */
+    width: 50em;
+    height: 30em;
+    margin: 40px 20px 20px 20px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    position: relative;
+}
+
+.servicesoirée{
+    border: 1px solid #ED9E59;
+    border-radius: 10px;
+    background-image:url(Mak1\ \(1\).jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 50em;
+    height: 30em;
+    margin: 40px 20px 20px 20px;
+    perspective: 1000px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.servicephoto{
+    width: 50em;
+    height: 30em;
+    border: 1px solid #ED9E59;
+    border-radius: 10px;
+    background-image:url(Mak1\ \(2\).jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin: 40px 20px 20px 20px;
+    perspective: 1000px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.serviceformation{
+    border: 1px solid #ED9E59;
+    border-radius: 10px;
+    background-image:url(Mak1\ \(3\).jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    width: 50em;
+    height: 30em;
+    margin: 40px 20px 20px 20px;
+    perspective: 1000px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.servicemariage:hover{
+    transform: rotateY(180deg);
+}
+
+.servicesoirée:hover{
+    transform: rotateY(180deg);
+}
+
+.servicephoto:hover{
+    transform: rotateY(180deg);
+}
+
+.serviceformation:hover{
+    transform: rotateY(180deg);
+}
+
+
+.Face1, 
+.Face2{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    backface-visibility: hidden;
+    font-size: 2rem;
+    color: #cfcddb;
+    font-family: Calibri,sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.Face2 h3{
+    color: #d63384;
+    font-size: 2rem;
+    text-align: center;
+    font-family: PlayFair Display,sans-serif;
+}
+
+.Face2 p{
+    font-size: 1.5rem;
+    margin: 5px 0;
+    justify-content: center;
+    text-align: center;
+}
+.Face2{
+    background: linear-gradient(45deg,#E9BCB9, #ED9E59, #A24054, #662249, #44174E, #1B1931);;
+    transform: rotateY(180deg);
+    background-size: cover;
+}
+
+.services h3{
+    color: #d63384;;
+    font-size: 2rem;
+    text-align: center;
+    font-family: PlayFair Display,sans-serif;
+}
+
+.Mak{
+    color: #d63384;
+    font-family: PlayFair Display,sans-serif;
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+}
+
+/*soiréé*/
+.services1{
+    display : flex;
+    justify-content: center;
+
+}
+
+.servicemariage1 {
+    border: 1px solid #ED9E59;
+    border-radius: 10px;
+    background-image:url(c2b9b0499986773181ae8beaa65c3688.jpg);
+    background-size: cover;  /* Ajuste l’image pour couvrir l'élément */
+    background-position: center; /* Centre l’image */
+    background-repeat: no-repeat; /* Empêche la répétition */
+    width: 50em;
+    height: 30em;
+    margin: 40px 20px 20px 20px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    position: relative;
+}
+
+.servicesoirée1{
+    border: 1px solid #ED9E59;
+    border-radius: 10px;
+    background-image:url(20325643.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 50em;
+    height: 30em;
+    margin: 40px 20px 20px 20px;
+    perspective: 1000px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.servicephoto1{
+    width: 50em;
+    height: 30em;
+    border: 1px solid #ED9E59;
+    border-radius: 10px;
+    background-image:url(19729c2113603e3c0abf996781284fd1.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin: 40px 20px 20px 20px;
+    perspective: 1000px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.serviceformation1{
+    border: 1px solid #ED9E59;
+    border-radius: 10px;
+    background-image:url(makeup1.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    width: 50em;
+    height: 30em;
+    margin: 40px 20px 20px 20px;
+    perspective: 1000px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.servicemariage1:hover{
+    transform: rotateY(180deg);
+}
+
+.servicesoirée1:hover{
+    transform: rotateY(180deg);
+}
+
+.servicephoto1:hover{
+    transform: rotateY(180deg);
+}
+
+.serviceformation1:hover{
+    transform: rotateY(180deg);
+}
+
+
+.Face11, 
+.Face21{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    backface-visibility: hidden;
+    font-size: 2rem;
+    color: #cfcddb;
+    font-family: Calibri,sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.Face21 h3{
+    color: #d63384;
+    font-size: 2rem;
+    text-align: center;
+    font-family: PlayFair Display,sans-serif;
+}
+
+.Face21 p{
+    font-size: 1.5rem;
+    margin: 5px 0;
+    justify-content: center;
+    text-align: center;
+}
+.Face21{
+    background: linear-gradient(45deg,#E9BCB9, #ED9E59, #A24054, #662249, #44174E, #1B1931);;
+    transform: rotateY(180deg);
+    background-size: cover;
+}
+
+
+/*artistique*/
+.services2{
+    display : flex;
+    justify-content: center;
+
+}
+
+.servicemariage2 {
+    border: 1px solid #ED9E59;
+    border-radius: 10px;
+    background-image:url(0acd331ac3f17703fb8458b328664185.jpg);
+    background-size: cover;  /* Ajuste l’image pour couvrir l'élément */
+    background-position: center; /* Centre l’image */
+    background-repeat: no-repeat; /* Empêche la répétition */
+    width: 50em;
+    height: 30em;
+    margin: 40px 20px 20px 20px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    position: relative;
+}
+
+.servicesoirée2{
+    border: 1px solid #ED9E59;
+    border-radius: 10px;
+    background-image:url(R_2.jpeg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 50em;
+    height: 30em;
+    margin: 40px 20px 20px 20px;
+    perspective: 1000px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.servicephoto2{
+    width: 50em;
+    height: 30em;
+    border: 1px solid #ED9E59;
+    border-radius: 10px;
+    background-image:url(R.jpeg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin: 40px 20px 20px 20px;
+    perspective: 1000px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.serviceformation2{
+    border: 1px solid #ED9E59;
+    border-radius: 10px;
+    background-image:url(8a8badcffc1a6c80e3929dde3605511d.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    width: 50em;
+    height: 30em;
+    margin: 40px 20px 20px 20px;
+    perspective: 1000px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.servicemariage2:hover{
+    transform: rotateY(180deg);
+}
+
+.servicesoirée2:hover{
+    transform: rotateY(180deg);
+}
+
+.servicephoto2:hover{
+    transform: rotateY(180deg);
+}
+
+.serviceformation2:hover{
+    transform: rotateY(180deg);
+}
+
+
+.Face12, 
+.Face22{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    backface-visibility: hidden;
+    font-size: 2rem;
+    color: #cfcddb;
+    font-family: Calibri,sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.Face22 h3{
+    color: #d63384;
+    font-size: 2rem;
+    text-align: center;
+    font-family: PlayFair Display,sans-serif;
+}
+
+.Face22 p{
+    font-size: 1.5rem;
+    margin: 5px 0;
+    justify-content: center;
+    text-align: center;
+}
+.Face22{
+    background: linear-gradient(45deg,#E9BCB9, #ED9E59, #A24054, #662249, #44174E, #1B1931);;
+    transform: rotateY(180deg);
+    background-size: cover;
+}
+
+/*photo*/
+.services3{
+    display : flex;
+    justify-content: center;
+
+}
+
+.servicemariage3 {
+    border: 1px solid #ED9E59;
+    border-radius: 10px;
+    background-image:url(makeup3.jpg);
+    background-size: cover;  /* Ajuste l’image pour couvrir l'élément */
+    background-position: center; /* Centre l’image */
+    background-repeat: no-repeat; /* Empêche la répétition */
+    width: 50em;
+    height: 30em;
+    margin: 40px 20px 20px 20px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    position: relative;
+}
+
+.servicesoirée3{
+    border: 1px solid #ED9E59;
+    border-radius: 10px;
+    background-image:url(OIP_34.jpeg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 50em;
+    height: 30em;
+    margin: 40px 20px 20px 20px;
+    perspective: 1000px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.servicephoto3{
+    width: 50em;
+    height: 30em;
+    border: 1px solid #ED9E59;
+    border-radius: 10px;
+    background-image:url(06b593c065775ec1f7765cef91be5654.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin: 40px 20px 20px 20px;
+    perspective: 1000px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.serviceformation3{
+    border: 1px solid #ED9E59;
+    border-radius: 10px;
+    background-image:url(c08e9fcb2727aa289a9dc68ad9e6141a.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    width: 50em;
+    height: 30em;
+    margin: 40px 20px 20px 20px;
+    perspective: 1000px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.servicemariage3:hover{
+    transform: rotateY(180deg);
+}
+
+.servicesoirée3:hover{
+    transform: rotateY(180deg);
+}
+
+.servicephoto3:hover{
+    transform: rotateY(180deg);
+}
+
+.serviceformation3:hover{
+    transform: rotateY(180deg);
+}
+
+.Face13, 
+.Face23{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    backface-visibility: hidden;
+    font-size: 2rem;
+    color: #cfcddb;
+    font-family: Calibri,sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.Face23 h3{
+    color: #d63384;
+    font-size: 2rem;
+    text-align: center;
+    font-family: PlayFair Display,sans-serif;
+}
+
+.Face23 p{
+    font-size: 1.5rem;
+    margin: 5px 0;
+    justify-content: center;
+    text-align: center;
+}
+.Face23{
+    background: linear-gradient(45deg,#E9BCB9, #ED9E59, #A24054, #662249, #44174E, #1B1931);;
+    transform: rotateY(180deg);
+    background-size: cover;
+}
+
+/*formation*/
+.services4{
+    display : flex;
+    justify-content: center;
+
+}
+
+.servicemariage4{
+    border: 1px solid #ED9E59;
+    border-radius: 10px;
+    background-image:url(OIP_36.jpeg);
+    background-size: cover;  /* Ajuste l’image pour couvrir l'élément */
+    background-position: center; /* Centre l’image */
+    background-repeat: no-repeat; /* Empêche la répétition */
+    width: 50em;
+    height: 30em;
+    margin: 40px 20px 20px 20px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    position: relative;
+}
+
+.servicesoirée4{
+    border: 1px solid #ED9E59;
+    border-radius: 10px;
+    background-image:url(R1.jpeg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 50em;
+    height: 30em;
+    margin: 40px 20px 20px 20px;
+    perspective: 1000px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.servicephoto4{
+    width: 50em;
+    height: 30em;
+    border: 1px solid #ED9E59;
+    border-radius: 10px;
+    background-image:url(OIP_4.jpeg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin: 40px 20px 20px 20px;
+    perspective: 1000px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.serviceformation4{
+    border: 2px solid #ED9E59;
+    border-radius: 10px;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 1);
+    background-image:url(OIP_5.jpeg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    width: 50em;
+    height: 30em;
+    margin: 40px 20px 20px 20px;
+    perspective: 1000px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.servicemariage4:hover{
+    transform: rotateY(180deg);
+}
+
+.servicesoirée4:hover{
+    transform: rotateY(180deg);
+}
+
+.servicephoto4:hover{
+    transform: rotateY(180deg);
+}
+
+.serviceformation4:hover{
+    transform: rotateY(180deg);
+}
+
+
+.Face14, 
+.Face24{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    backface-visibility: hidden;
+    font-size: 2rem;
+    color: #cfcddb;
+    font-family: Calibri,sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.Face24 h3{
+    color: #d63384;
+    font-size: 2rem;
+    text-align: center;
+    font-family: PlayFair Display,sans-serif;
+}
+
+.Face24 p{
+    font-size: 1.5rem;
+    margin: 5px 0;
+    justify-content: center;
+    text-align: center;
+}
+.Face24{
+    background: linear-gradient(45deg,#E9BCB9, #ED9E59, #A24054, #662249, #44174E, #1B1931);
+    transform: rotateY(180deg);
+    background-size: cover;
+}
+
+body{
+    background-color: #662249;
+}
+
+p{
+    font-size: 1.5rem;
+    color: #cfcddb;
+    justify-content: center;
+}
