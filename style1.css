@@ -33,6 +33,10 @@ a{
     font-family: PlayFair Display, sans-serif;
 }
 
+a:hover{
+    color: white;
+}
+
 a::after{
     content: '';
     position: absolute;
@@ -47,10 +51,6 @@ a::after{
 a:hover::after{
     width: 100%;
     left: 0;
-}
-
-a:hover{
-    color: white;
 }
 
 body {
